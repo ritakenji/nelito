@@ -1,0 +1,167 @@
+<style>
+			@font-face { 
+				font-family: Lato;
+				font-style: normal;
+				font-weight: normal;
+				src: url('fontsLATO/Lato-Regular.woff2') format ('woff2'); 
+			}
+		
+			html {
+				font-size: 62.5%; 
+			}
+			body {
+				font-family: Lato, sans-serif;
+				color: #000;
+			}
+			#Wrapper {
+				margin: 0 auto;
+				width: 1186px;
+			}
+			header {
+				text-align: right;
+				width: 130px;
+				position: fixed;
+				float: left;
+				min-height: 800px; 
+			}
+			
+			header .logo {
+				padding-top: 35px;
+				margin-left: 0;  
+			}
+			
+			header .nav {
+				border-right: 1px solid #000;
+				min-height: 100080px;
+			}
+			
+			header .nav .projectos {
+				margin-top: 35px;
+				padding-right: 15px; 
+			}
+			
+			header .nav .info {
+				margin-top: 20px;
+				padding-right: 15px; 
+			}
+			
+			header .info li {
+				font-weight: bold;
+				font-size: 1.2em;
+			}
+			
+			header ul li{
+				font-size: 1.2em;
+				text-transform: lowercase;
+			}
+			
+			header ul li a {
+				text-decoration: none;
+				color: #000;
+			}
+			
+			#CV {
+				display: none;
+			}
+			
+			main {
+				width: 1056px;
+				min-height: 495px;
+				float: left;
+				padding-top: 127px;
+				margin-left: 130px;
+			}
+			
+			main dl {
+				padding-left: 20px;
+			}
+			
+			main dl dt {
+				float: left;
+				position: relative;
+				margin: 0 15px 30px 15px;
+				width: 315px;
+				height: 208px;
+				cursor: pointer;
+			}
+			
+			main dl dt img:hover { 
+				opacity: 0.15;
+			}
+			
+			main dl dt .Title {
+				width: 315px;
+				height: 208px;
+				position: absolute;
+				top: 85px;
+				display: none;
+				z-index: 1; 
+				text-align: center;
+				font-size: 2.0em;
+				color: #333;
+				text-decoration: none;
+				text-transform: lowercase;
+				cursor: pointer;
+			}
+
+			main dl dt:hover img {
+				opacity: 0.15;
+			}
+			main dl dt:hover .Title  {
+				display: block;
+			}
+			
+			main dl dd{
+				display: none;
+				font-size: 1.1em;
+			}
+			
+			main dl dd .preview_txt {
+				height: 446px;
+				width: 315px;
+				margin-left: 15px;
+				float: left;
+				background-color: #fff;
+			}
+			
+			main dl dd .preview_txt h2, h1 {
+				margin: 0 0 10px 5px;
+				font-size: 1.2em;
+				font-style: italic;
+			}
+			
+			main dl dd .preview_img {
+				margin-left: 30px;
+				float: left;
+				position: relative;
+			} 
+			
+			main dl dd .exit {
+				width: 20px;
+				height: 20px;
+				position: absolute;
+				margin: 5px 0 0 -25px;
+				cursor: pointer;
+			}
+			
+			main dl .dd_row1 {
+				display: none;
+				position: absolute;
+				z-index: 2;
+				font-size: 1.1em;
+			}
+			
+			main dl .dd_row2{
+				display: none;
+				position: absolute;
+				margin-top: 238px;
+				z-index: 2;
+				font-size: 1.1em;
+			}
+			
+			footer {
+				text-align: center;
+				font-style: italic;
+				padding-bottom: 10px;
+			}
+		</style>

@@ -1,0 +1,101 @@
+<style>
+			@font-face { 
+				font-family: Lato;
+				font-style: normal;
+				font-weight: normal;
+				src: url('fontsLATO/Lato-Regular.woff2') format ('woff2'); 
+			}
+		
+			html {
+				font-size: 62.5%; /* conversão certa de px para em */
+			}
+			body {
+				font-family: Lato, sans-serif;
+				color: #000;
+			}
+			#Wrapper {
+				margin: 0 auto;
+				width: 1186px;
+				
+			}
+			header {
+				text-align: right;
+				width: 130px;
+				position: fixed;
+				float: left;
+				min-height: 800px; 
+			}
+			
+			header .nav {
+				border-right: 1px solid #000;
+				min-height: 100080px;
+			}
+			
+			header .logo {
+				padding-top: 35px;
+				margin-left: 0;  
+			}
+			
+			header .info {
+				margin-top: 35px;
+				padding-right: 15px; 
+			}
+			
+			header .info li{
+				font-size: 1.2em;
+				font-weight: bold;
+				text-transform: lowercase;
+			}
+			
+			header .info li a {
+				text-decoration: none;
+				color: #000;
+			}
+			
+			header .info li:first-child {
+				text-decoration: line-through;
+			}
+			
+			header .info li:nth-child(2) {
+				font-weight: normal;
+				margin-bottom: 10px;
+			}
+			
+			article {
+				width: 1056px; /*as margens e paddings todas contam*/
+				float: left;
+				padding-top: 127px;
+				margin-left: 135px;
+				min-height: 800px;
+			}
+			
+			article .bio_txt {
+				width: 315px;
+				margin-left: 30px;
+				float: left;
+				font-size: 1.1em;
+			}
+			
+			
+			article .bio_txt p, h1, h2 {
+				margin-bottom: 10px;
+			}
+			
+			article .bio_txt h1, h2 {
+				margin-left: 5px;
+				font-size: 1.2em;
+				font-style: italic;
+			}
+			
+			article .bio_img {
+				width: 660px;
+				margin-left: 30px;
+				float: left;
+			}
+			
+			footer {
+				text-align: center;
+				font-style: italic;
+				padding-bottom: 10px;
+			}
+		</style>

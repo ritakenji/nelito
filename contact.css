@@ -1,0 +1,126 @@
+<style>
+			@font-face { 
+				font-family: Lato;
+				font-style: normal;
+				font-weight: normal;
+				src: url('fontsLATO/Lato-Regular.woff2') format ('woff2'); 
+			}
+		
+			html {
+				font-size: 62.5%; 
+			}
+			body {
+				font-family: Lato, sans-serif;
+			}
+			#Wrapper {
+				margin: 0 auto;
+				width: 1186px;
+				
+			}
+			header {
+				text-align: right;
+				width: 130px;
+				position: fixed;
+				float: left;
+				min-height: 800px; 
+			}
+			
+			header .nav {
+				border-right: 1px solid #000;
+				min-height: 10000px;
+			}
+			
+			header .logo {
+				padding-top: 35px;
+				margin-left: 0;  
+			}
+			
+			header .info {
+				margin-top: 35px;
+				padding-right: 15px; 
+			}
+			
+			header .info li {
+				font-size: 1.2em;
+				font-weight: bold;
+				text-transform: lowercase;
+			}
+			
+			header .info li a {
+				text-decoration: none;
+				color: #000;
+			}
+			
+			header .info li:nth-child(3) {
+				text-decoration: line-through;
+			}
+			
+			header .info li:nth-child(2) {
+				font-weight: normal;
+				margin-bottom: 10px;
+			}
+			
+			article {
+				width: 1056px; 
+				float: left;
+				padding-top: 127px;
+				margin-left: 165px;
+				min-height: 800px;
+				font-size: 1.1em;
+			}
+			
+			article .contact {
+				margin-left: 15px;
+				width: 140px;
+			}
+			
+			article .contact ul .title {
+				font-weight: bold;
+			}
+			
+			article .contact ul .title ul:first-child {
+				margin-top: 15px;
+			}
+			
+			article .contact ul .title ul .txt{
+				margin: 5px 0 5px 0;
+				font-style: italic;
+				font-weight: normal;
+			}
+			
+			article .form {
+				width: 401px; 
+				padding: 15px;
+				margin-top: 30px;
+				border: 1px dotted #C9C9C9;
+			}
+			
+			article .form p {
+				margin: 10px 0 10px 0;
+			}
+			
+			article .form h2 {
+				margin-top: 5px;
+				font-weight: bold;
+			}
+			
+			article .form .termos {
+				font-size: 0.8em;
+			}
+			
+			article .form .termos a {
+				text-decoration: underline;
+				font-style: italic;
+				color: #333;
+			}
+			
+			article .form label {
+				font-style: italic;
+			}
+			
+			footer {
+				text-align: center;
+				font-style: italic;
+				padding-bottom: 10px;
+			}
+		</style>
